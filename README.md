@@ -17,7 +17,7 @@ Dollar cost averaging is a slightly controversial topic, as there is an ongoing 
 Sign up for an account on GDAX if you haven’t already (a Coinbase account will also work), then deposit funds. Currently the best way to do this is with an ACH transfer (USD) or SEPA transfer (EUR) which are both free, otherwise, you’ll probably end up paying unnecessary fees.
 
 #### Create API Key
-Navigate to the API section of your dashboard and create an API key that with “Trade” permissions. This will generate a key, secret, and passphrase. You will need these later so write them down or store them safely.
+Navigate to the API section of your dashboard and create an API key that has “Trade” permissions. This will generate a key, secret, and passphrase. You will need these later so write them down or store them safely.
 
 #### Set up locally
 Make sure you have [Node.js](https://nodejs.org) 8.0+ installed then run
