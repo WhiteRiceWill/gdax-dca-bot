@@ -8,7 +8,7 @@ The bot currently supports USD and EUR and trades on the US based exchange, [GDA
 If you’re just interested in playing around with the bot, it has a sandbox mode that uses fake money. You can read more about it below.
 
 # Dollar Cost Averaging
-[Dollar cost averaging](http://www.investopedia.com/terms/d/dollarcostaveraging.asp) is the strategy of buying a fixed dollar amount of an investment at a specific interval. It is thought to reduce risk, especially in volatile markets. Since cryptocurrency markets tend to be rather volatile it has become a pretty popular practice.
+[Dollar cost averaging](http://www.investopedia.com/terms/d/dollarcostaveraging.asp) is the strategy of buying a fixed dollar amount of an investment at a specific interval. It is thought to reduce risk, especially in volatile markets. Since cryptocurrency markets tend to be rather volatile it has become a pretty popular practice in the space.
 
 Dollar cost averaging is a slightly controversial topic, as there is an ongoing debate of whether or not it actually beats lump sum investing. There is strong math on both sides, however, I think its effectiveness ultimately boils down to the particular use case. I encourage you to read up on this if you're interested.
 
