@@ -77,7 +77,7 @@ The interval investment amount is the amount in US Dollars or Euros that you wan
   INTERVAL_INVESTMENT_AMOUNT_LTC=[amount in fiat]
   INVESTMENT_INTERVAL_LTC=[‘min’, ‘tenmins’, ‘hour’, ‘sixhours’, ‘day’]
 ```
-For example, if you want to invest 1.50 cents into bitcoin every 10 minutes you would put
+For example, if you want to invest $1.50 into bitcoin every 10 minutes you would put
 ```
 #Bitcoin
   INTERVAL_INVESTMENT_AMOUNT_BTC=1.50
