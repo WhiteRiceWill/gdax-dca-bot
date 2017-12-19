@@ -32,7 +32,3 @@ module.exports = {
   fiatCurrency,
   sandboxMode,
 };
-
-//  TODO
-//  Readme
-//  run a test of this for myself

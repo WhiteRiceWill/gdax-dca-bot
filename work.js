@@ -30,9 +30,9 @@ const buy = (coinSymbol, amt) => {
 const rawInterval = interval =>
     interval === 'min' ? '0-59/1 * * * *'
   : interval === 'tenmins' ? '0-59/10 * * * *'
-  : interval === 'hour' ? '* 0-23/1 * * *'
-  : interval === 'sixhours' ? '* 0-23/6 * * *'
-  : interval === 'day' ? '* * 0-31/1 * *'
+  : interval === 'hour' ? '0 0-23/1 * * *'
+  : interval === 'sixhours' ? '0 0-23/6 * * *'
+  : interval === 'day' ? '0 0 1-31/1 * *'
   : console.log('Scheduling failed: Invalid investment interval (check your .env file to make sure the investment intervals are correct)')
 
 
