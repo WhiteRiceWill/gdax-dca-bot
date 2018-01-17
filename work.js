@@ -48,13 +48,13 @@ const coinOn = (coinSymbol, amt, interval) => {
 
 // Turn coins on if their interval investment amounts meet the GDAX trade rules minimum
 const botOn = () => {
-  if (btcAmt >= 1.00) {
+  if (btcAmt >= 10.00) {
     coinOn('BTC', btcAmt, btcInterval);
   }
-  if (ethAmt >= 1.00) {
+  if (ethAmt >= 10.00) {
     coinOn('ETH', ethAmt, ethInterval);
   }
-  if (ltcAmt >= 1.00) {
+  if (ltcAmt >= 10.00) {
     coinOn('LTC', ltcAmt, ltcInterval);
   }
 };

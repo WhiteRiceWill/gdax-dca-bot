@@ -77,19 +77,19 @@ The interval investment amount is the amount in US Dollars or Euros that you wan
   INTERVAL_INVESTMENT_AMOUNT_LTC=[amount in fiat]
   INVESTMENT_INTERVAL_LTC=[‘min’, ‘tenmins’, ‘hour’, ‘sixhours’, ‘day’]
 ```
-For example, if you want to invest $1.50 into bitcoin every 10 minutes you would put
+For example, if you want to invest $10.25 into bitcoin every 10 minutes you would put
 ```
 #Bitcoin
-  INTERVAL_INVESTMENT_AMOUNT_BTC=1.50
+  INTERVAL_INVESTMENT_AMOUNT_BTC=10.25
   INVESTMENT_INTERVAL_BTC=tenmins
 ```
-The bot is set to not buy if an amount of less than 1 dollar is entered as per the [GDAX trading rules](https://support.gdax.com/customer/portal/articles/2725970-trading-rules). So for example, if you wanted to invest in Bitcoin and Ethereum, but not Litecoin, for Litecoin you would put
+The bot is set to not buy if an amount of less than 10 dollar is entered as per the [GDAX trading rules](https://support.gdax.com/customer/portal/articles/2725970-trading-rules). So for example, if you wanted to invest in Bitcoin and Ethereum, but not Litecoin, for Litecoin you would put
 ```
 #Litecoin
   INTERVAL_INVESTMENT_AMOUNT_LTC=0.00
   INVESTMENT_INTERVAL_LTC=day
 ```
-In this case, it doesn’t matter what you put for the investment interval because the bot isn’t going to buy. Also, you can put fractions of a cent (example: 1.2534) and it should work.
+In this case, it doesn’t matter what you put for the investment interval because the bot isn’t going to buy. Also, you can put fractions of a cent (example: 10.2534) and it should work.
 
 #### Other
 Set the currency you are using and whether or not the bot is in sandbox mode.
